@@ -1,0 +1,7 @@
+<library path="lib/libpanda_energy_controller">
+  <class name="panda_energy_controller/FrankaEnergyShapingController" type="panda_energy_controller::FrankaEnergyShapingController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      A controller that limits the flow of power and force, executes a cartesian motion based on joint torques
+    </description>
+  </class>
+</library>
